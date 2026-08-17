@@ -90,3 +90,6 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/rhodep/rhodep-vendor.mk)
+
+PRODUCT_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
