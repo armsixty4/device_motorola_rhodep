@@ -99,3 +99,6 @@ $(call inherit-product, vendor/motorola/rhodep/rhodep-vendor.mk)
 
 PRODUCT_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
+
+# Camera extension for torch slider
+$(call soong_config_set,libcameraservice,ext_lib,//$(LOCAL_PATH):libcameraservice_extension.bangkk)
