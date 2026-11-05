@@ -54,3 +54,5 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := 29
 
 # inherit from the proprietary version
 include vendor/motorola/rhodep/BoardConfigVendor.mk
+
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
