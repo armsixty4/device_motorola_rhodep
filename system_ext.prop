@@ -1,2 +1,7 @@
 # Display
 sys.brightness.disable_gamma_conversion=true
+
+
+ro.product.marketname=Moto G82(5G)
+ro.infinity.soc=Snapdragon 695
+ro.infinity.camera=50MP + 8MP + 2MP + 16MP
