@@ -27,7 +27,12 @@ PRODUCT_PACKAGES += \
     LineageApertureAppDevice \
     LineageSystemUIDevice \
     SystemUIResDevice \
-    WifiResDevice
+    WifiResDevice \
+    DeviceAsWebcamResTarget
+
+# USB
+PRODUCT_PACKAGES += \
+    DeviceAsWebcam
 
 # Audio
 PRODUCT_PACKAGES += \
