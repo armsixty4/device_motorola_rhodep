@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.DeviceAsWebcam.overlay.fogos">
+    package="com.android.DeviceAsWebcam.overlay.rhodep">
 
     <overlay
         android:isStatic="true"
